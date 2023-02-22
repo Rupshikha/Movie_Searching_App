@@ -1,0 +1,65 @@
+.movie_section{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0px;
+    min-height: 100vh;
+}
+
+.movie_title{
+    font-size:40px;
+    font-weight: 600;
+    color:rgba(255, 255, 255, 0.9);
+    margin-left:30px;
+}
+.fa_star {
+    color: #ff9e00;
+  }
+
+.movie_rating{
+    padding-left:3px;
+    margin-top: 20px;
+    /* color:#2B15B0; */
+    color:#cec2c6;
+    display: flex;
+}
+
+.movie_rating span{
+    margin-left:30px;
+    display:flex;
+    align-items: "center";
+  
+}
+
+.movie_plot{
+    padding-right: 5em;
+    margin:20px 0;
+    line-height:1.8rem;
+    margin-left: 30px;
+    font-size:20px;
+    color:rgb(210, 211, 224);
+}
+
+.movie-info > div span:first-child {
+    padding: 5px 0px;
+    color:#cec2c6;
+    font-weight: 600;
+    width: 100px;
+    display: inline-block;
+    margin-left: 30px;
+  }
+
+  .movie-info > div span{
+    /* color:#2B15B0; */
+    color:rgb(210, 211, 224);
+  }
+
+  
+ 
+  .section-right {
+    margin-right: 4em;
+    
+  }
+
+  .section-right > img{
+    box-shadow: 10px 10px 10px black,
+  }
